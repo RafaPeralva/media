@@ -2,4 +2,4 @@
 
 ### links for github pages for each class: 
 
-[Class 1 in class assignment](#)
+[Class 1 in class assignment](https://rafaperalva.github.io/media/class1_inclass.html)
