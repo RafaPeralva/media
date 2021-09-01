@@ -1,6 +1,6 @@
 ## Repository for projects and assignments for MEDP 285 class
 
-### links
+### Links
 [Index](https://rafaperalva.github.io/media/)  
 
 #### In class assignments:
