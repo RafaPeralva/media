@@ -10,3 +10,4 @@
 
 #### Homeworks:
 [Homework 1](https://rafaperalva.github.io/media/hw1.html)
+[Homework 2](https://rafaperalva.github.io/media/class02/hw2/index.html)
