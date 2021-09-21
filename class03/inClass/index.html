@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Class 3 in class assignment</title>
+        <style type="text/css">
+        body{
+            background-color: lightcoral;
+            text-align: center;
+            color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Srcset responsive method:</h2>
+        <div class="responsive">
+            <img srcset="images/beach480.jpg 480w,
+                         images/beach960.jpg 960w,
+                         images/beach1280.jpg 1280w,"
+                  sizes="(max-width: 480px) 100vw,
+                        (max-width: 960px) 90vw,
+                        (max-width: 1280px) 70vw,
+                        1280px"
+                       src="images/beach.jpg" alt="Copacabana beach picture">
+           </div>
+
+        <h2>Picture responsive method:</h2>
+
+        <picture>
+            <source media="(min-width: 769px)" srcset="images/cabo1280.jpg">
+            <source media="(min-width: 650px)" srcset="images/cabo960.jpg">
+            <source media="(min-width: 465px)" srcset="images/cabo480.jpg">
+            <img src="images/cabo.jpg" alt="Cabo Frio beach picture" style="width:auto;">
+          </picture>
+
+        
+        
+    </body>
+
+</html>
