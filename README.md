@@ -8,6 +8,8 @@
 
 [Class 2](https://rafaperalva.github.io/media/class02/inClass/index.html)
 
+[Class 3](https://rafaperalva.github.io/media/class03/inClass/index.html)
+
 #### Homeworks:
 [Homework 1](https://rafaperalva.github.io/media/hw1.html)
 
