@@ -15,4 +15,4 @@
 
 [Homework 2](https://rafaperalva.github.io/media/class02/hw2/index.html)
 
-[Homework 2](https://rafaperalva.github.io/media/class02/hw3/index.html)
+[Homework 3](https://rafaperalva.github.io/media/class03/hw3/index.html)
