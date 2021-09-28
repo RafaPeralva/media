@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+        <style>
+        body {font-family: Verdana, sans-serif;
+          text-align: center;
+            color: white;
+            background-color: black;
+        }
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+        width: 80%;
+        margin: auto;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 2s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+        </style>
+        <title> Hw 3 PhotoSlide</title>
+    </head>
+    <body>
+        <h1> Summer as a SWE intern in NYC</h1>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="../../class02/hw2/img/img01.JPG" style="width:70%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../class02/hw2/img/img02.jpg" style="width:70%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../class02/hw2/img/img03.jpg" style="width:70%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../class02/hw2/img/img04.jpg" style="width:70%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../class02/hw2/img/img05.jpg" style="width:70%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../class02/hw2/img/img06.JPG" style="width:70%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../../class02/hw2/img/img07.jpg" style="width:70%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="../../class02/hw2/img/img08.jpg" style="width:70%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="../../class02/hw2/img/img09.jpg" style="width:70%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="../../class02/hw2/img/img10.JPG" style="width:70%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="../../class02/hw2/img/img11.jpg" style="width:70%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="../../class02/hw2/img/img12.jpg" style="width:70%">
+              </div>
+          
+          
+          
+          </div>
+          <div> 
+              <a href="hw03.html"><h3>See more...(hw03)</h3></a>
+          </div>
+          
+          <script>
+          // create variable to index the slides - to track
+          var slideIndex = 0;
+          // call a function that does something with the slides
+          showSlides();
+          
+          function showSlides() {
+              // a variable to be used with the for loop
+              var i;
+              // target the slides in the DOM as slides
+              var slides = document.getElementsByClassName("mySlides");
+              // loop through the slides showing them one at a time (display)
+              for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";
+              }
+              // increment the slides from 0 to the total number of slides (for loop)
+              slideIndex++;
+              // loop back to the beginning
+              if (slideIndex > slides.length) {slideIndex = 1}
+              slides[slideIndex-1].style.display = "block";
+              setTimeout(showSlides, 3000); // Change image every 3 seconds
+          }
+          </script>
+          
+
+    </body>
+</html>

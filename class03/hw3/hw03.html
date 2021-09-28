@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+        <style>
+        body {font-family: Verdana, sans-serif;
+          text-align: center;
+            color: white;
+            background-color: black;
+        }
+    
+        </style>
+        <title> Hw 3 PhotoSlide</title>
+    </head>
+    <body>
+        <h1> Summer as a SWE intern in NYC (cont.)</h1>
+        
+        <div class="responsive">
+                <img srcset="images/img2_480.jpg 480w,
+                  images/img2_960.jpg 960w,
+                  images/img2_1280.jpg 1280w,"
+           sizes="(max-width: 480px) 100vw,
+                 (max-width: 960px) 90vw,
+                 (max-width: 1280px) 70vw,
+                 1280px"
+                src="images/img2_original.jpg" alt="SWE summer pics">
+                <h4>Cupcake Fridays with the SWE team! </h4>
+                <br><br>
+            <img srcset="images/img1_480.jpg 480w,
+                         images/img1_960.jpg 960w,
+                         images/img1_1280.jpg 1280w,"
+                  sizes="(max-width: 480px) 100vw,
+                        (max-width: 960px) 90vw,
+                        (max-width: 1280px) 70vw,
+                        1280px"
+                       src="images/img1_original.jpg" alt="SWE summer pics">
+                       <h4>Happy Hour pics :) </h4>
+                       <br><br>
+
+
+
+                       <img srcset="images/img3_480.gif 480w,
+                         images/img3_960.gif 960w,
+                         images/img3_1280.gif 1280w,"
+                  sizes="(max-width: 480px) 100vw,
+                        (max-width: 960px) 90vw,
+                        (max-width: 1280px) 70vw,
+                        1280px"
+                       src="images/img3_original.gif" alt="SWE summer pics">
+
+                       <h4>Little Italy Passion Fruit Gelatto </h4>
+                       <br><br>
+
+          
+
+    </body>
+</html>
