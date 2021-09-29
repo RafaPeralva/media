@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- SKELETON OF A BASIC WEB PAGE USING ONLY BASIC HTML WE SHOULD ALL BE FAMILIAR WITH SO FAR -->
+<html lang="en">
+  <head>
+    <title>HW4</title>
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+<!--     The meta elements of this document describe the document and its keywords.-->    
+    <meta charset="utf-8">
+<!-- https://www.w3schools.com/charsets/ref_html_utf8.asp-->    
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    https://www.w3schools.com/css/css_rwd_viewport.asp-->   
+    <meta name="description" content="Home page for Web Production 1">
+    <meta name="author" content="Mark Ramos">
+<!--   The meta elements of this document describe the document and its keywords.-->    
+<!--   https://www.w3schools.com/icons/-->  
+<link rel="stylesheet" href="styles/style.css">
+</style>
+</head>
+
+  <body>
+  <main>
+      <!-- https://www.w3schools.com/tags/tag_nav.asp-->
+
+     <nav>
+        <!-- navigation -->
+
+<!-- https://www.w3schools.com/tags/tag_header.asp-->
+<header>
+      <h3> Class 4 homework</h3>
+    <img src="images/img01.jpg" alt="Beach" class="responsive" width="80%" height="auto">
+<!--     basic responsive image setting width: 100%-->
+  </main>
+<!--The most common way of adding navigation elements to websites are through using unordered lists (<ul></ul>).-->
+<!-- https://www.w3schools.com/tags/tag_ul.asp -->      
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#media">Media</a></li>
+    <li><a href="#game">Game</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+  </ul>
+</header>
+</nav>
+<!--     Inside ul tag we added li tag and inside each of li tags we added an anchor(a) tag.
+the a tags are our links in our navigation menu. As you can see each one has a text inside for each of our sections and also they have a href attribute.
+
+For each href attribute we gave it a name that starts with a hash(#). It's important when we want to click on each of those links and expect the page to navigate to the corresponding section in our page.
+
+The anchor tag makes each list element a link and passing in the #id_name lets us target different sections by ID, just like in CSS ** new feature in HTML5 -->
+
+<!-- home -->
+
+<!--     https://www.w3schools.com/tags/tag_section.asp-->    
+ <section id="home">
+<!-- https://www.w3schools.com/html/html_tables.asp--> 
+
+ </section>
+
+    <!-- About -->
+    <section id="about">
+      <h1>Rafaela Peralva</h1>
+<!--       https://www.w3schools.com/html/html_paragraphs.asp-->      
+<p> Rafaela is a senior at Hunter College in NYC pusuing her BA in Computer Science and minoring in Mathematics.</p>
+    </section>
+
+    <!-- Media -->
+    <section id="media">
+        <img src="images/img02.jpg" alt="Beach" class="responsive" width="80%" height="auto">
+        <h4>Here is the link to access all my in class assigments and homeworks for MEDP 285</h4>
+        <a href="https://rafaperalva.github.io/media/">Click Here</a>
+</section>
+
+<section id="svg">
+    <h4>Here's the first svg I've done:</h4>
+    <img src="../inClass/class4svg.svg" alt="first svg">
+</section>
+<section id="game">
+    <h4>Here's a video of my first football game :)</h4>
+
+        <video width="400px" controls>
+            <source src="video/IMG_3158.MOV">
+          </video>
+          
+
+
+</section>
+
+   
+
+    <!-- footer -->
+<!--     https://www.w3schools.com/tags/tag_footer.asp-->    
+   <footer id="contact">
+      <h2>Contact</h2>
+      <p>This work licensed under Creative Commons Attribution-ShareALike 3.0 License. CC</p>
+    </footer>
+
+  </body>
+  </html>
+
