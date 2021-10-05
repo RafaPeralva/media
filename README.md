@@ -12,6 +12,9 @@
 
 [Class 4](https://rafaperalva.github.io/media/class04/inClass/index.html)
 
+[Class 5](https://rafaperalva.github.io/media/class05/inClass/index.html)
+
+
 #### Homeworks:
 [Homework 1](https://rafaperalva.github.io/media/hw1.html)
 
