@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+.title {
+  color: red;
+  text-align: center;
+}
+
+.text {
+  background-image: url("../images/image1.png");
+  word-spacing: 2px;
+}
+
+.red {
+  color: darkred;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.green {
+  color: green;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.blue {
+  color: lightskyblue;
+  font-family: cursive;
+  font-size: larger;
+}
+
+.love {
+  color: #8f0000;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-size: larger;
+}
+
+.water {
+  color: darkblue;
+  font-family: "Times New Roman", Times, serif;
+  font-stretch: extra-expanded;
+  font-size-adjust: initial;
+}
+
+.lefty {
+  background-color: darkviolet;
+  margin-top: 10px;
+  width: 25%;
+  float: left;
+  position: relative;
+  z-index: 5;
+  border: 6px;
+  border-style: double;
+}
+
+.fix {
+  background-color: darkcyan;
+  margin-top: 30px;
+  margin-left: 3px;
+  margin-right: 0px;
+  width: 75%;
+  text-align: center;
+  position: fixed;
+  z-index: 3;
+  border: 3px;
+  border-style: dotted;
+}
+.right {
+  background-color: darkorange;
+  margin-top: 155px;
+  width: 25%;
+  float: right;
+  position: relative;
+  z-index: 1;
+  border: 3px;
+  border-style: dashed;
+}
+
+.pic {
+  position: relative;
+  z-index: 1;
+}
