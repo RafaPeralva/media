@@ -1,0 +1,35 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 50% 25%;
+
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+#item1 {
+  background-color: #b2d6ff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#item2 {
+  background-color: #ffa07a;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#item3 {
+  background-color: #6b6b04;
+}
+#item4 {
+  background-color: #93ec90;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+#item5 {
+  background-color: #ec90ec;
+}
+#item6 {
+  background-color: #0dfcfc;
+}
