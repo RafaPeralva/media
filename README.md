@@ -29,3 +29,5 @@
 [Homework 4](https://rafaperalva.github.io/media/class04/hw4/index.html)
 
 [Homework 5](https://rafaperalva.github.io/media/class05/hw5/index.html)
+
+[Homework 6](https://rafaperalva.github.io/media/class06/hw6/index.html)
