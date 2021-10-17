@@ -16,6 +16,8 @@
 
 [Class 5](https://rafaperalva.github.io/media/class05/inClass/index.html)
 
+[Class 6](https://rafaperalva.github.io/media/class06/inClass/grid.html)
+
 #### Homeworks:
 
 [Homework 1](https://rafaperalva.github.io/media/hw1.html)
