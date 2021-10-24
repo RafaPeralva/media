@@ -80,8 +80,16 @@ body {
 
 .about-me-col {
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: space-evenly;
   margin-top: 40px;
+  opacity: 70%;
+  padding: 0px;
+}
+
+.about-me-col:hover {
+  opacity: 100%;
 }
 
 .about-me-col p {
@@ -100,8 +108,12 @@ body {
 }
 
 .about-pic {
-  opacity: 70%;
+  width: 60%;
 }
-.about-pic:hover {
+/* .about-pic:hover {
   opacity: 100%;
+} */
+
+.pic {
+  width: 50%;
 }
