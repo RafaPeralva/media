@@ -1,0 +1,107 @@
+body {
+  /* background-image: url("images/bg.png"); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 110%;
+  text-align: center;
+  color: pink;
+}
+
+.navbar-custom {
+  background-color: darkslateblue;
+  color: pink;
+}
+
+.navbar-brand-custom {
+  color: pink;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: cursive;
+  padding-left: 20px;
+}
+
+.navbar-custom a:hover {
+  color: palevioletred;
+}
+
+.navbar-custom a:link {
+  color: pink;
+}
+
+.navbar-custom a:active {
+  color: palevioletred;
+}
+
+.nav-menu {
+  color: pink;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.nav-drop-custom {
+  color: pink;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.me {
+  color: pink;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+
+.dropdown-theme {
+  background-color: black;
+  opacity: 75%;
+  border-color: palevioletred;
+  border-width: 1px;
+  border-radius: 15px;
+  color: pink;
+  text-align: center;
+}
+
+.dropdown-theme a:link {
+  color: pink;
+}
+
+.dropdown-theme a:visited {
+  color: pink;
+}
+
+.dropdown-theme a:hover {
+  color: palevioletred;
+}
+
+.about-me {
+  display: flex;
+}
+
+.about-me-col {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.about-me-col p {
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 2;
+  line-break: auto;
+  margin-top: 30px;
+}
+
+.about-me-col h3 {
+  opacity: 80%;
+  font-family: cursive;
+  text-decoration: underline;
+  text-decoration-color: palevioletred;
+}
+
+.about-pic {
+  opacity: 70%;
+}
+.about-pic:hover {
+  opacity: 100%;
+}
