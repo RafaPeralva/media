@@ -1,5 +1,4 @@
 body {
-  /* background-image: url("images/bg.png"); */
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -100,7 +99,7 @@ body {
   margin-top: 30px;
 }
 
-.about-me-col h3 {
+h3 {
   opacity: 80%;
   font-family: cursive;
   text-decoration: underline;
@@ -110,10 +109,30 @@ body {
 .about-pic {
   width: 60%;
 }
-/* .about-pic:hover {
-  opacity: 100%;
-} */
 
 .pic {
   width: 50%;
+}
+
+.find-me {
+  padding-top: 40px;
+}
+
+.find-pic {
+  width: 50%;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.col-icon {
+  opacity: 70%;
+}
+
+.col-icon:hover {
+  opacity: 100%;
 }
