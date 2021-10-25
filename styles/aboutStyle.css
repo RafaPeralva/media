@@ -13,7 +13,26 @@ body {
   color: pink;
 }
 
+@media only screen and (max-width: 600px) {
+  .about img {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .about video {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+}
+
 .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
   width: 100%;
   text-align: center;
@@ -24,18 +43,20 @@ body {
   font-size: large;
 }
 
-.about img {
-  width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-}
+@media only screen and (min-width: 601px) {
+  .about img {
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
 
-.about video {
-  width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  .about video {
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
 }
 
 .about p {
@@ -49,7 +70,7 @@ body {
 .navbar {
   background-color: darkslateblue;
   width: 100%;
-  position: fixed;
+  position: absolute;
   text-align: center;
   font-family: cursive;
   font-size: larger;
