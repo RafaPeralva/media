@@ -54,7 +54,7 @@ body {
 .dropdown-theme {
   background-color: black;
   opacity: 75%;
-  border-color: palevioletred;
+  border-color: darkslateblue;
   border-width: 1px;
   border-radius: 15px;
   color: pink;
@@ -77,6 +77,11 @@ body {
   display: flex;
 }
 
+.bottom-border {
+  border-bottom: 2px dotted darkslateblue;
+  margin-bottom: 20px;
+}
+
 .about-me-col {
   display: flex;
   flex-wrap: nowrap;
@@ -89,6 +94,10 @@ body {
 
 .about-me-col:hover {
   opacity: 100%;
+}
+
+.bottom {
+  margin-bottom: 35px;
 }
 
 .about-me-col p {

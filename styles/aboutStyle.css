@@ -1,0 +1,76 @@
+body {
+  justify-content: center;
+  color: pink;
+  background-color: black;
+  color: pink;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  color: pink;
+}
+
+.about {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.about h3 {
+  font-family: cursive;
+  font-size: large;
+}
+
+.about img {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.about video {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 2;
+  line-break: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+.navbar {
+  background-color: darkslateblue;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  font-family: cursive;
+  font-size: larger;
+}
+
+.navbar a:hover {
+  color: palevioletred;
+}
+
+.navbar a:link {
+  color: pink;
+}
+
+.navbar a:visited {
+  color: pink;
+}
+
+.navbar a:visited:hover {
+  color: palevioletred;
+}
+
+.navbar a:active {
+  color: palevioletred;
+}
