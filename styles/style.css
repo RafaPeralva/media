@@ -23,6 +23,7 @@ body {
 
 .navbar-custom a:hover {
   color: palevioletred;
+  transform: scale(1.5);
 }
 
 .navbar-custom a:link {
@@ -115,8 +116,20 @@ h3 {
   text-decoration-color: palevioletred;
 }
 
+@keyframes effect1 {
+  from {
+    width: 60%;
+  }
+  to {
+    width: 65%;
+  }
+}
+
 .about-pic {
-  width: 60%;
+  width: 65%;
+  animation-name: effect1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .pic {
