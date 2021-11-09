@@ -18,6 +18,12 @@
 
 [Class 6](https://rafaperalva.github.io/media/class06/inClass/grid.html)
 
+[Class 7](https://rafaperalva.github.io/media/class07/inClass/index.html)
+
+Class 8 -> Midterm presentation
+
+[Class 9](https://rafaperalva.github.io/media/class09/inClass/index.html)
+
 #### Homeworks:
 
 [Homework 1](https://rafaperalva.github.io/media/hw1.html)
@@ -31,3 +37,9 @@
 [Homework 5](https://rafaperalva.github.io/media/class05/hw5/index.html)
 
 [Homework 6](https://rafaperalva.github.io/media/class06/hw6/index.html)
+
+[Midterm/Index](https://rafaperalva.github.io/media/)
+
+Homework 8 -> Midterm presentation
+
+[Homework 9/Portfolio](https://rafaperalva.github.io/media/)
