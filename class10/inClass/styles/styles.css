@@ -141,7 +141,7 @@
   animation-name: animation1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in;
 }
 .bunny2 img {
   width: 20%;
@@ -168,7 +168,7 @@
   animation-name: animation3;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
 }
 
 .bunny4 img {
