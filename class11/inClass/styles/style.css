@@ -1,0 +1,6 @@
+.bodyText {
+  display: flex;
+  color: purple;
+  font-size: large;
+  justify-content: center;
+}
