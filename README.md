@@ -26,6 +26,8 @@ Class 8 -> Midterm presentation
 
 [Class 10](https://rafaperalva.github.io/media/class10/inClass/rabbits.html)
 
+[Class 11](https://rafaperalva.github.io/media/class11/inClass/index.html)
+
 #### Homeworks:
 
 [Homework 1](https://rafaperalva.github.io/media/hw1.html)
