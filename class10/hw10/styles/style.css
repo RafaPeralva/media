@@ -1,0 +1,339 @@
+.body {
+  text-align: center;
+}
+h1 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one {
+  animation: one 5s infinite;
+}
+
+.two {
+  animation: two 5s infinite;
+}
+
+.three {
+  animation: three 5s infinite;
+}
+
+.four {
+  animation: four 5s infinite;
+}
+
+.five {
+  animation: five 5s infinite;
+}
+
+.six {
+  animation: six 5s infinite;
+}
+
+.seven {
+  animation: seven 5s infinite;
+}
+
+.eight {
+  animation: eight 5s infinite;
+}
+
+.nine {
+  animation: nine 5s infinite;
+}
+
+.ten {
+  animation: ten 5s infinite;
+}
+
+.eleven {
+  animation: eleven 5s infinite;
+}
+
+.twelve {
+  animation: twelve 5s infinite;
+}
+
+.thirteen {
+  animation: thirteen 5s infinite;
+}
+
+.fourteen {
+  animation: fourteen 5s infinite;
+}
+
+.fifteen {
+  animation: fifteen 5s infinite;
+}
+
+.sixteen {
+  animation: sixteen 5s infinite;
+}
+
+.seventeen {
+  animation: seventeen 5s infinite;
+}
+
+.eighteen {
+  animation: eighteen 5s infinite;
+}
+
+@keyframes one {
+  0% {
+    color: #000000;
+  }
+  4% {
+    color: #ffda03;
+  }
+  6% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes two {
+  0% {
+    color: #000000;
+  }
+  8% {
+    color: #ffda03;
+  }
+  10% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes three {
+  0% {
+    color: #000000;
+  }
+  10% {
+    color: #ffda03;
+  }
+  12% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes four {
+  0% {
+    color: #000000;
+  }
+  12% {
+    color: #ffda03;
+  }
+  14% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes five {
+  0% {
+    color: #000000;
+  }
+  14% {
+    color: #ffda03;
+  }
+  16% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes six {
+  0% {
+    color: #000000;
+  }
+  18% {
+    color: #ffda03;
+  }
+  20% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes seven {
+  0% {
+    color: #000000;
+  }
+  20% {
+    color: #ffda03;
+  }
+  22% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes eight {
+  0% {
+    color: #000000;
+  }
+  22% {
+    color: #ffda03;
+  }
+  24% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes nine {
+  0% {
+    color: #000000;
+  }
+  24% {
+    color: #ffda03;
+  }
+  26% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes ten {
+  0% {
+    color: #000000;
+  }
+  26% {
+    color: #ffda03;
+  }
+  28% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes eleven {
+  0% {
+    color: #000000;
+  }
+  28% {
+    color: #ffda03;
+  }
+  30% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes twelve {
+  0% {
+    color: #000000;
+  }
+  32% {
+    color: #ffda03;
+  }
+  34% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes thirteen {
+  0% {
+    color: #000000;
+  }
+  34% {
+    color: #ffda03;
+  }
+  36% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes fourteen {
+  0% {
+    color: #000000;
+  }
+  36% {
+    color: #ffda03;
+  }
+  38% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes fifteen {
+  0% {
+    color: #000;
+  }
+  40% {
+    color: #ffda03;
+  }
+  42% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes sixteen {
+  0% {
+    color: #000000;
+  }
+  42% {
+    color: #ffda03;
+  }
+  44% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+@keyframes seventeen {
+  0% {
+    color: #000000;
+  }
+  44% {
+    color: #ffda03;
+  }
+  46% {
+    color: #ffda03;
+  }
+  100% {
+    color: #000000;
+  }
+}
+.image:hover {
+  width: 250px;
+}
