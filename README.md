@@ -50,6 +50,6 @@ Homework 8 -> Midterm presentation
 
 [Homework 10](https://rafaperalva.github.io/media/class10/hw10/index.html)
 
-[Class 11](https://rafaperalva.github.io/media/class12/hw12/index.html)
+[Homework 11](https://rafaperalva.github.io/media/class11/hw11/index.html)
 
 [Homework 12](https://rafaperalva.github.io/media/class12/hw12/index.html)
