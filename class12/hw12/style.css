@@ -1,0 +1,69 @@
+.wrapper {
+  position: relative;
+  top: 40vh;
+  padding-bottom: 300px;
+}
+#button {
+  border: 5px solid #ffab33;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: auto;
+  background: #ff5733;
+}
+
+#button2 {
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+  background: pink;
+}
+
+#image {
+  text-align: center;
+  margin: 20px;
+}
+
+#text2 {
+  cursor: pointer;
+  text-align: center;
+  color: purple;
+}
+
+#text1 {
+  color: red;
+}
+
+#text3 {
+  color: red;
+  cursor: pointer;
+}
+
+#text4 {
+  color: pink;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: #dff30b;
+}
+
+#message {
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.reveal {
+  visibility: visible;
+}
