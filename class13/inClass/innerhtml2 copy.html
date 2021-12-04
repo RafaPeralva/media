@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	
+body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box1{
+  background-color: #444;
+  color: red;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+.box2 {
+  background-color: yellow;
+  color: green;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="box1" id ="demo"></div>
+   <div class="box2" id ="demo2"></div>
+
+</div>
+
+
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+document.getElementById("demo2").innerHTML = 5 + 6;
+
+</script>
+
+</body>
+</html>
