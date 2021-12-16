@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+}
+
+/* @keyframes effect1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+} */
+
+@keyframes effect1 {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  51% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+.videosAni {
+  padding-bottom: 100px;
+  width: 65%;
+  animation-name: effect1;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.home-link {
+  font-size: larger;
+  color: darkgoldenrod;
+  padding: 5px;
+  background-color: black;
+  border: 2px;
+  border-style: dashed;
+}
+
+.home-link:hover {
+  font-size: larger;
+  color: black;
+  padding: 5px;
+  background-color: darkgoldenrod;
+  border: 2px;
+  border-style: dashed;
+}
