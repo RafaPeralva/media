@@ -12,15 +12,6 @@ body {
   flex-direction: row;
 }
 
-/* @keyframes effect1 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-} */
-
 @keyframes effect1 {
   0% {
     width: 0%;
