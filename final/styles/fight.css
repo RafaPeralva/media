@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h4 {
+  padding-top: 50px;
+}
+.carouselDiv {
+  width: 50%;
+  padding-top: 100px;
+}
+
+.carouselDivV {
+  width: 35%;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.carousel-inner > .item.active,
+.carousel-inner > .item.next.left,
+.carousel-inner > .item.prev.right {
+  text-align: -webkit-center;
+}
+.home-link {
+  margin-top: 20px;
+  font-size: larger;
+  color: darkgoldenrod;
+  padding: 5px;
+  background-color: black;
+  border: 2px;
+  border-style: dashed;
+}
+
+.home-link:hover {
+  font-size: larger;
+  color: black;
+  padding: 5px;
+  background-color: darkgoldenrod;
+  border: 2px;
+  border-style: dashed;
+}
